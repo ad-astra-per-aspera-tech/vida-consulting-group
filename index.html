@@ -44,6 +44,19 @@
         padding: 0.35rem 0.8rem;
         font-size: 0.9rem;
       }
+      .proposal-card-link {
+        display: block;
+        height: 100%;
+        color: inherit;
+        text-decoration: none;
+      }
+      .proposal-card-link article {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .proposal-card-link:hover article {
+        transform: translateY(-4px);
+        box-shadow: 0 0.75rem 1.5rem rgba(16, 24, 40, 0.12) !important;
+      }
     </style>
   </head>
   <body>
@@ -109,63 +122,69 @@
 
         <div class="row g-4">
           <div class="col-lg-4">
-            <article class="bg-white rounded-3 shadow-sm p-4 h-100 design-legal">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <h3 class="h5 mb-0" data-i18n="legalTitle">Opción 1: Corporativo Legal</h3>
-                <span class="badge bg-dark" data-i18n="legalBadge">Serio</span>
-              </div>
-              <p class="small" data-i18n="legalDesc">
-                Imagen sobria, tipografía clásica y secciones de confianza para empresas que priorizan cumplimiento legal y auditorías.
-              </p>
-              <div class="preview-legal rounded-3 p-3 small">
-                <strong data-i18n="previewHeader">Estructura sugerida:</strong>
-                <ul class="mb-0 mt-2">
-                  <li data-i18n="legalPoint1">Hero institucional con propuesta legal</li>
-                  <li data-i18n="legalPoint2">Bloque de certificaciones y credenciales</li>
-                  <li data-i18n="legalPoint3">Formulario de consulta corporativa</li>
-                </ul>
-              </div>
-            </article>
+            <a href="propuesta-1.html" class="proposal-card-link">
+              <article class="bg-white rounded-3 shadow-sm p-4 h-100 design-legal">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h3 class="h5 mb-0" data-i18n="legalTitle">Opción 1: Corporativo Legal</h3>
+                  <span class="badge bg-dark" data-i18n="legalBadge">Serio</span>
+                </div>
+                <p class="small" data-i18n="legalDesc">
+                  Imagen sobria, tipografía clásica y secciones de confianza para empresas que priorizan cumplimiento legal y auditorías.
+                </p>
+                <div class="preview-legal rounded-3 p-3 small">
+                  <strong data-i18n="previewHeader">Estructura sugerida:</strong>
+                  <ul class="mb-0 mt-2">
+                    <li data-i18n="legalPoint1">Hero institucional con propuesta legal</li>
+                    <li data-i18n="legalPoint2">Bloque de certificaciones y credenciales</li>
+                    <li data-i18n="legalPoint3">Formulario de consulta corporativa</li>
+                  </ul>
+                </div>
+              </article>
+            </a>
           </div>
 
           <div class="col-lg-4">
-            <article class="bg-white rounded-3 shadow-sm p-4 h-100 design-minimal">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <h3 class="h5 mb-0" data-i18n="minimalTitle">Opción 2: Minimalista</h3>
-                <span class="badge text-bg-secondary" data-i18n="minimalBadge">Simple</span>
-              </div>
-              <p class="small" data-i18n="minimalDesc">
-                Diseño limpio, mucho espacio en blanco y enfoque directo en servicios clave para navegación rápida.
-              </p>
-              <div class="preview-minimal rounded-3 p-3 small">
-                <strong data-i18n="previewHeader">Estructura sugerida:</strong>
-                <ul class="mb-0 mt-2">
-                  <li data-i18n="minimalPoint1">Encabezado breve con CTA principal</li>
-                  <li data-i18n="minimalPoint2">Cards de servicios con iconografía ligera</li>
-                  <li data-i18n="minimalPoint3">Testimonios y contacto rápido</li>
-                </ul>
-              </div>
-            </article>
+            <a href="propuesta-2.html" class="proposal-card-link">
+              <article class="bg-white rounded-3 shadow-sm p-4 h-100 design-minimal">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h3 class="h5 mb-0" data-i18n="minimalTitle">Opción 2: Minimalista</h3>
+                  <span class="badge text-bg-secondary" data-i18n="minimalBadge">Simple</span>
+                </div>
+                <p class="small" data-i18n="minimalDesc">
+                  Diseño limpio, mucho espacio en blanco y enfoque directo en servicios clave para navegación rápida.
+                </p>
+                <div class="preview-minimal rounded-3 p-3 small">
+                  <strong data-i18n="previewHeader">Estructura sugerida:</strong>
+                  <ul class="mb-0 mt-2">
+                    <li data-i18n="minimalPoint1">Encabezado breve con CTA principal</li>
+                    <li data-i18n="minimalPoint2">Cards de servicios con iconografía ligera</li>
+                    <li data-i18n="minimalPoint3">Testimonios y contacto rápido</li>
+                  </ul>
+                </div>
+              </article>
+            </a>
           </div>
 
           <div class="col-lg-4">
-            <article class="bg-white rounded-3 shadow-sm p-4 h-100 design-recommended">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <h3 class="h5 mb-0" data-i18n="recommendedTitle">Opción 3: Estratégica Recomendada</h3>
-                <span class="badge text-bg-success" data-i18n="recommendedBadge">Mejor ajuste</span>
-              </div>
-              <p class="small" data-i18n="recommendedDesc">
-                Mezcla de profesionalismo y cercanía: ideal para mostrar resultados, confianza y crecimiento empresarial.
-              </p>
-              <div class="preview-recommended rounded-3 p-3 small">
-                <strong data-i18n="previewHeader">Estructura sugerida:</strong>
-                <ul class="mb-0 mt-2">
-                  <li data-i18n="recommendedPoint1">Resultados medibles con KPIs visuales</li>
-                  <li data-i18n="recommendedPoint2">Línea de servicios por industria</li>
-                  <li data-i18n="recommendedPoint3">CTA dual: diagnóstico + reunión estratégica</li>
-                </ul>
-              </div>
-            </article>
+            <a href="propuesta-3.html" class="proposal-card-link">
+              <article class="bg-white rounded-3 shadow-sm p-4 h-100 design-recommended">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h3 class="h5 mb-0" data-i18n="recommendedTitle">Opción 3: Estratégica Recomendada</h3>
+                  <span class="badge text-bg-success" data-i18n="recommendedBadge">Mejor ajuste</span>
+                </div>
+                <p class="small" data-i18n="recommendedDesc">
+                  Mezcla de profesionalismo y cercanía: ideal para mostrar resultados, confianza y crecimiento empresarial.
+                </p>
+                <div class="preview-recommended rounded-3 p-3 small">
+                  <strong data-i18n="previewHeader">Estructura sugerida:</strong>
+                  <ul class="mb-0 mt-2">
+                    <li data-i18n="recommendedPoint1">Resultados medibles con KPIs visuales</li>
+                    <li data-i18n="recommendedPoint2">Línea de servicios por industria</li>
+                    <li data-i18n="recommendedPoint3">CTA dual: diagnóstico + reunión estratégica</li>
+                  </ul>
+                </div>
+              </article>
+            </a>
           </div>
         </div>
       </section>
