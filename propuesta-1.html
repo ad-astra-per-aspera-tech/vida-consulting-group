@@ -16,16 +16,36 @@
         background: linear-gradient(135deg, #0b1f3b, #193a6a);
         color: #fff;
       }
+      .logo-panel {
+        max-width: 280px;
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(4px);
+      }
+      .logo-panel img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
     </style>
   </head>
   <body>
     <header class="hero py-5">
       <div class="container">
         <a href="index.html" class="btn btn-light btn-sm mb-3">← Volver al landing</a>
-        <h1 class="display-6 fw-bold mb-2">Opción 1: Corporativo Legal</h1>
-        <p class="mb-0">
-          Propuesta enfocada en cumplimiento legal, confianza institucional y comunicación formal para clientes corporativos.
-        </p>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-6 fw-bold mb-2">Opción 1: Corporativo Legal</h1>
+            <p class="mb-0">
+              Propuesta enfocada en cumplimiento legal, confianza institucional y comunicación formal para clientes corporativos.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="logo-panel rounded-3 p-3 ms-lg-auto">
+              <img src="assets/vida-logo.svg" alt="Logo de Vida Consulting Group" />
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
