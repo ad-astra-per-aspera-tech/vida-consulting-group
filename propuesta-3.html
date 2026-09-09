@@ -16,16 +16,36 @@
         background: linear-gradient(135deg, #0a7d58, #0e9f6e);
         color: #fff;
       }
+      .logo-frame {
+        max-width: 290px;
+        background: rgba(255, 255, 255, 0.16);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        box-shadow: 0 1rem 2rem rgba(11, 31, 59, 0.14);
+      }
+      .logo-frame img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
     </style>
   </head>
   <body>
     <header class="hero py-5">
       <div class="container">
         <a href="index.html" class="btn btn-light btn-sm mb-3">← Volver al landing</a>
-        <h1 class="display-6 fw-bold mb-3">Opción 3: Estratégica Recomendada</h1>
-        <p class="lead mb-0">
-          Propuesta balanceada entre imagen profesional y cercanía comercial para generar confianza y conversión.
-        </p>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-6 fw-bold mb-3">Opción 3: Estratégica Recomendada</h1>
+            <p class="lead mb-0">
+              Propuesta balanceada entre imagen profesional y cercanía comercial para generar confianza y conversión.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="logo-frame rounded-4 p-3 ms-lg-auto">
+              <img src="assets/vida-logo.svg" alt="Logo de Vida Consulting Group" />
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 

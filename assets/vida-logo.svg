@@ -1,0 +1,14 @@
+<svg width="920" height="320" viewBox="0 0 920 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="320" rx="24" fill="white"/>
+  <text x="32" y="178" fill="#0C3365" font-family="Arial, Helvetica, sans-serif" font-size="148" font-weight="700" letter-spacing="2">V</text>
+  <text x="188" y="178" fill="#0C3365" font-family="Arial, Helvetica, sans-serif" font-size="148" font-weight="700" letter-spacing="2">D</text>
+  <text x="358" y="178" fill="#0C3365" font-family="Arial, Helvetica, sans-serif" font-size="148" font-weight="700" letter-spacing="2">A</text>
+  <path d="M167 55C142 73 122 96 105 126C124 113 139 100 152 84V178H183V84C195 99 210 112 230 126C212 95 191 72 167 55Z" fill="#54B948"/>
+  <circle cx="167" cy="36" r="17" fill="#0C3365"/>
+  <path d="M480 187C551 183 607 193 655 214C617 184 571 166 508 161L480 187Z" fill="#54B948"/>
+  <text x="80" y="245" fill="#0C3365" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="600" letter-spacing="10">CONSULTING GROUP</text>
+  <line x1="18" y1="236" x2="62" y2="236" stroke="#54B948" stroke-width="4"/>
+  <line x1="782" y1="236" x2="902" y2="236" stroke="#54B948" stroke-width="4"/>
+  <line x1="18" y1="292" x2="902" y2="292" stroke="#A7A9AC" stroke-width="2"/>
+  <text x="92" y="287" fill="#4B5563" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" letter-spacing="6">TRANSFORMING BUSINESS THROUGH PEOPLE</text>
+</svg>
